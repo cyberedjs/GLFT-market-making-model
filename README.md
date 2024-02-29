@@ -25,11 +25,16 @@
 ### 📈 최적 매수/매도 호가 산출 알고리즘
 
 Binance에서 제공하는 API를 활용하여 실시간 틱데이터를 받아옵니다.
-이 데이터를 마켓 메이킹 모델에 적용해 최적의 매수/매도 호가를 산출하고 해당 가격을 기반으로 주문을 넣는 구조입니다.
+이 데이터를 GLFT 마켓 메이킹 모델에 적용해 최적의 매수/매도 호가를 산출하고 해당 가격을 기반으로 주문을 넣는 구조입니다.
 
-자세한 내용은 아래 README를 참고해주시기 바랍니다.
+코드에 대한 자세한 내용은 아래 README를 참고해주시기 바랍니다.
 
 - [마켓 메이킹 모델: tradingbot](https://github.com/tuchongkim/visualize-binance/tree/main/tradingbot)
+
+이론에 대한 자세한 내용은 아래 PPT와 논문을 참고해주시기 바랍니다.
+
+- [Finding Alpha Using Market Making Model: PPT](https://github.com/cyberedjs/GLFT-market-making-model/blob/main/%EB%AF%B8%EC%8B%9C%EA%B5%AC%EC%A1%B0_%EC%B5%9C%EC%A2%85_%EB%B0%9C%ED%91%9C_2%EC%B0%A8.pdf)
+- [Finding Alpha Using Market Making Model: PAPER](https://github.com/cyberedjs/GLFT-market-making-model/blob/main/%EC%B5%9C%EC%A2%85%EB%B3%B4%EA%B3%A0%EC%84%9C_%ED%95%9C%EA%B5%AD%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EC%A2%85%ED%95%A9%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%EB%85%BC%EB%AC%B8%EC%96%91%EC%8B%9D.pdf)
 
 ### 🖥️ 실시간 주문 내역 및 포지션 확인
 
